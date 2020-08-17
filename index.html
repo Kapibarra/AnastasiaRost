@@ -3,6 +3,7 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/css/normalize.css">
     <link rel="stylesheet" href="/css/style.css" />
     <link
     rel="stylesheet"
@@ -45,15 +46,15 @@
             <span class="circle" aria-hidden="true">
               <span class="icon arrow"></span>
             </span>
-            <span class="button-text">Цены</span>
+            <span class="button-text"><a href="#work"> Цены </a></span>
           </button>
         </div>
-        <div id="container">
-          <button class="learn-more">
-            <span class="circle" aria-hidden="true">
-              <span class="icon arrow"></span>
+        <div id="container" >
+          <button class="learn-more" >
+            <span class="circle"  aria-hidden="true">
+              <span class="icon arrow" ></span>
             </span>
-            <span class="button-text">Контакты</span>
+            <span class="button-text" > <a href="#footer">Контакты </a></span>
           </button>
         </div>
         <div id="container">
@@ -88,15 +89,14 @@
               </button>
             </div>
           </a>
-
         </div>
       </div>
       <div id="container" href="#test-popup" class="open-popup-link" >
-        <button class="learn-more">
+        <button class="learn-more" id="learn-more-btn">
           <span class="circle" aria-hidden="true">
             <span class="icon arrow"></span>
           </span>
-          <span class="button-text" id="pop-up-btntext">Образование</span>
+          <span class="button-text" id="pop-up-btntext">Моё образование</span>
         </button>
       </div>
       <div id="test-popup" class="white-popup mfp-hide">
@@ -116,6 +116,8 @@
             без настройки и позволит раск
           </div>
           <div class="help-windows-text">
+            <div class="help-image"><img src="../img/help2.png"></div>
+            <div class="helptext"><a> Расставание с близким человеком</a></div>
             Однако для разработки более развесистого приложения вам, скорее
             всего, придётся рассмотреть другие варианты настройки рабочего
             окружения, объединяющие в себе различные технологии. Вот несколько
@@ -126,6 +128,8 @@
         </div>
         <div class="help-windows">
           <div class="help-windows-text">
+            <div class="help-image"><img src="../img/help3.png"></div>
+            <div class="helptext"><a> Расставание с близким человеком</a></div>
             Однако для разработки более развесистого приложения вам, скорее
             всего, придётся рассмотреть другие варианты настройки рабочего
             окружения, объединяющие в себе различные технологии. Вот несколько
@@ -134,6 +138,8 @@
             без настройки и позволит раск
           </div>
           <div class="help-windows-text">
+            <div class="help-image"><img src="../img/help4.png"></div>
+            <div class="helptext"><a> Расставание с близким человеком</a></div>
             Однако для разработки более развесистого приложения вам, скорее
             всего, придётся рассмотреть другие варианты настройки рабочего
             окружения, объединяющие в себе различные технологии. Вот несколько
@@ -142,16 +148,10 @@
             без настройки и позволит раск
           </div>
         </div>
-        <div class="help-windows">
-          <div class="help-windows-text">
-            Однако для разработки более развесистого приложения вам, скорее
-            всего, придётся рассмотреть другие варианты настройки рабочего
-            окружения, объединяющие в себе различные технологии. Вот несколько
-            наборов JavaScript-инструментов, которые мы рекомендуем для создания
-            приложения. Каждый из этих инструментов может работать практически
-            без настройки и позволит раск
-          </div>
-          <div class="help-windows-text">
+        <div class="help-windows" >
+          <div class="help-windows-text" id="last-help-block">
+            <div class="help-image"><img src="../img/help5.png"></div>
+            <div class="helptext"><a> Расставание с близким человеком</a></div>
             Однако для разработки более развесистого приложения вам, скорее
             всего, придётся рассмотреть другие варианты настройки рабочего
             окружения, объединяющие в себе различные технологии. Вот несколько
@@ -167,23 +167,44 @@
             <img class="reviewsimg" src="/img/reviews3.png"></img>
           </div>
         </section>
-        <div class="work-article"><b> Как мы можем с Вами работать?</b></div>
+        <div class="work-article" id="work"><b> Как мы можем с Вами работать?</b></div>
         <div class="work-windows">
-          <div class="work-windows-text">
-            Однако для разработки более развесистого приложения вам, скорее
-            всего, придётся рассмотреть другие варианты настройки рабочего
-            окружения, объединяющие в себе различные технологии. Вот несколько
-            наборов JavaScript-инструментов, которые мы рекомендуем для создания
-            приложения. Каждый из этих инструментов может работать практически
-            без настройки и позволит раск
-          </div>
           <div class="help-windows-text">
+            <div class="work-image"><img class="work-image" src="/img/work1.jpg"></div>
+            <div class="helptext"><a> Онлайн консультация</a></div>
             Однако для разработки более развесистого приложения вам, скорее
             всего, придётся рассмотреть другие варианты настройки рабочего
             окружения, объединяющие в себе различные технологии. Вот несколько
             наборов JavaScript-инструментов, которые мы рекомендуем для создания
             приложения. Каждый из этих инструментов может работать практически
             без настройки и позволит раск
+            <div id="container" class="price-btn">
+              <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Цены</span>
+              </button>
+            </div>
+          </div>
+          
+          <div class="help-windows-text">
+            <div class="work-image"><img  class="work-image2"src="/img/work2.jpg"></div>
+            <div class="helptext"><a> Личный прием</a></div>
+            Однако для разработки более развесистого приложения вам, скорее
+            всего, придётся рассмотреть другие варианты настройки рабочего
+            окружения, объединяющие в себе различные технологии. Вот несколько
+            наборов JavaScript-инструментов, которые мы рекомендуем для создания
+            приложения. Каждый из этих инструментов может работать практически
+            без настройки и позволит раск
+            <div id="container" class="price-btn">
+              <button class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Цены</span>
+              </button>
+            </div>
           </div>
         </div>
       </div>
@@ -245,7 +266,15 @@
               >
               </textarea>
             </div>
-            <div class="form-group">
+            <div id="container" class="form-btn">
+              <button type="submit" class="learn-more">
+                <span class="circle" aria-hidden="true">
+                  <span class="icon arrow"></span>
+                </span>
+                <span class="button-text">Отправить</span>
+              </button>
+            </div>
+            <!-- <div class="form-group">
               <label for="user_submit"></label>
               <button
                 type="submit"
@@ -253,16 +282,16 @@
                 id=""
                 placeholder="Отправить"
               > Отправить</button>
-            </div>
+            </div> -->
           </form>
         </div>
       </div>
     </main>
-    <footer class="footer">
+    <footer class="footer" id="footer">
       <div class="logo"></div>
     </footer>
     <div class="copyright">
-      <a class="copyright">copyright</a>
+      <a class="copyright">&copy; Copyright , Novikov.N.M , 2020</a>
     </div>
 
     <!-- SKRIPTS JS -->
