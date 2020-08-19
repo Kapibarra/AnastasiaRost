@@ -26,6 +26,7 @@ button:hover .button-text a {
 
 a {
   text-decoration: none;
+  color: #282936;
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 }
 
