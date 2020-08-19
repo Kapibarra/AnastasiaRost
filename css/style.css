@@ -113,7 +113,7 @@ a {
 .logo {
   width: 45px;
   height: 45px;
-  padding: 15px;
+  padding: 10px;
   filter: grayscale();
   cursor: pointer;
 }
@@ -361,7 +361,17 @@ background-color: darkturquoise;
   margin: 10px;
   box-shadow: 3px 3px 5px grey;
 }
+.reviews-title {
+  text-align: center;
+  font-size: 30px;
+  font-weight: 700;
+  margin: 0 auto;
+  padding-top: 150px;
+  margin-bottom: 50px;
+}
+
 /* Form */
+
 .form-title {
   max-width: 1920px;
   margin: 0 auto;
@@ -385,8 +395,8 @@ background-color: darkturquoise;
   max-width: 300px;
   padding: 25px;
   border-radius: 25px;
-  background: linear-gradient(rgb(255, 255, 255), rgb(244, 255, 252));
-  box-shadow: 2px 2px 4px #9b9b9b;
+  background: linear-gradient(rgb(190, 190, 190), rgb(146, 146, 146));
+  box-shadow: 2px 2px 4px #686868;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 90px;
@@ -451,11 +461,38 @@ textarea {
 /*Footer*/
 .footer {
   max-width: 1920px;
-  min-height: 300px;
-  padding-top: 50px;
-  background-image: url(/img/headersection.jpg);
 }
-
+.footerlogo {
+  width: 30%;
+  display: flex;
+  padding: 20px;
+}
+.footer-nav {
+  width: 20%;
+  display: block;
+  padding-left: 50px;
+}
+.footer-container {
+  width: 40%;
+  margin: 0 auto;
+  display: flex;
+  margin-bottom: 50px;
+}
+.footer-btn {
+  padding-top: 18px;
+}
+.footer-social-networks {
+  width: 10%;
+  padding-left: 50px;
+  display: table-column;
+}
+.contacts {
+  display: block;
+  padding-bottom: 35px;
+  padding-top: 19px;
+  font-size: 18px;
+  font-weight: 700;
+}
 /* copyright*/
 
 .copyright {
