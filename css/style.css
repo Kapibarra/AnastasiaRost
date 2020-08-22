@@ -632,9 +632,9 @@ textarea {
     padding: 25px;
   }
 }
-@media (max-width: 414px) {
+@media (max-width: 700px) {
   body {
-    max-width: 375px;
+    width: 100%;
   }
 .header {
   display: block;
