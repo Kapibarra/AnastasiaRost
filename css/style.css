@@ -22,7 +22,6 @@ a:visited {
 
 button:hover .button-text a {
   color: #fff;
-  
 }
 a {
   text-decoration: none;
@@ -41,8 +40,6 @@ a {
 .replacement:hover:nth-child(2) {
   opacity: 1;
 } */
-
-
 
 /* Header*/
 .header {
@@ -336,7 +333,7 @@ background-color: darkturquoise;
   margin-bottom: 75px;
 }
 .work-windows-text {
-  display: flex;
+  display: block;
   margin-right: 30px;
   max-width: 750px;
   width: 50%;
@@ -526,8 +523,10 @@ textarea {
   margin: 0 auto;
   margin-top: 25px;
 }
+.tablet-navigation {
+  display: none;
+}
 /*TEST*/
-
 
 /*ABOUT PAGE*/
 .aboutmainpage {
@@ -545,4 +544,88 @@ textarea {
 .sign {
   margin: 0 auto;
   text-align: center;
+}
+
+/*MEDIA*/
+
+@media (max-width: 768px) {
+  body {
+    max-width: 768px;
+  }
+  .navigation {
+    display: none;
+  }
+  .tablet-navigation {
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin: 20px 0px;
+    border-top: solid black;
+  }
+  .tablet-nav {
+    padding-left: 80px;
+  }
+
+  #container {
+    padding: 10px;
+  }
+  .help {
+    padding: 25px;
+  }
+  .reviews {
+    width: 100%;
+  }
+  .reviews-img {
+    max-width: 700px;
+  }
+  .work-windows {
+    max-width: 768px;
+    display: block;
+    margin: 0 auto;
+  }
+  .work-windows-text {
+    max-width: 750px;
+    width: 100%;
+    margin: 50px 25px;
+  }
+  .work-image {
+    max-width: 500px;
+  }
+  .form-title {
+    margin-top: 100px;
+  }
+  .form-subtitle {
+    padding: 25px;
+  }
+  .footerlogo {
+    display: none;
+  }
+  .footer-container {
+    display: block;
+    width: 100%;
+    max-width: 768px;
+  }
+  .footer-nav {
+    width: 33%;
+    margin: 0 auto;
+    padding: 0px;
+    padding-left: 45px;
+    padding-bottom: 25px;
+  }
+  .footer-social-networks {
+    display: flex;
+    margin: 0 auto;
+    width: 33%;
+    padding-left: 0px;
+  }
+  .footer-contacts {
+    display: none;
+  }
+  .aboutmainpage {
+    display: block;
+  }
+  .about-text-page{
+    display: block;
+    padding: 25px;
+  }
 }
