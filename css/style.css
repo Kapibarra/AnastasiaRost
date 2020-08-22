@@ -22,13 +22,27 @@ a:visited {
 
 button:hover .button-text a {
   color: #fff;
+  
 }
-
 a {
   text-decoration: none;
   color: #282936;
   transition: all 0.45s cubic-bezier(0.65, 0, 0.076, 1);
 }
+/* .replacement:nth-child(2) {
+  opacity: 0;
+}
+.replacement:nth-child(1) {
+  opacity: 1;
+}
+.replacement:hover :nth-child(1) {
+  opacity: 0;
+}
+.replacement:hover:nth-child(2) {
+  opacity: 1;
+} */
+
+
 
 /* Header*/
 .header {
@@ -271,8 +285,8 @@ background-color: darkturquoise;
   text-align: center;
   font-size: 30px;
   margin: 0 auto;
-  margin-bottom: 90px;
-  margin-top: 90px;
+  margin-bottom: 50px;
+  margin-top: 150px;
 }
 .help-windows {
   display: flex;
@@ -379,6 +393,7 @@ background-color: darkturquoise;
   margin: 0 auto;
   text-align: center;
   margin-bottom: 90px;
+  margin-top: 150px;
 }
 .form-subtitle {
   text-align: center;
@@ -512,3 +527,22 @@ textarea {
   margin-top: 25px;
 }
 /*TEST*/
+
+
+/*ABOUT PAGE*/
+.aboutmainpage {
+  max-width: 1200px;
+  margin: 0 auto;
+  font-size: 21px;
+  line-height: 1.5;
+  margin-bottom: 150px;
+  margin-top: 150px;
+  text-indent: 25px;
+}
+.about-text-page {
+  line-height: 1.7;
+}
+.sign {
+  margin: 0 auto;
+  text-align: center;
+}
