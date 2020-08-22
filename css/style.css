@@ -632,7 +632,7 @@ textarea {
     padding: 25px;
   }
 }
-@media (max-width: 375px) {
+@media (max-width: 414px) {
   body {
     max-width: 375px;
   }
