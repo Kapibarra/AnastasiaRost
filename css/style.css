@@ -1,7 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Rowdies:wght@300;400;700&display=swap");
 
 body {
-  max-width: 1900px;
+  max-width: 1920px;
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
   box-sizing: border-box;
@@ -548,9 +548,9 @@ textarea {
 
 /*MEDIA*/
 
-@media (max-width: 768px) {
+@media (max-width: 1400px) {
   body {
-    max-width: 768px;
+    max-width: 100%
   }
   .navigation {
     display: none;
@@ -562,7 +562,7 @@ textarea {
     width: 100%;
     display: flex;
     justify-content: center;
-    margin: 20px 0px;
+    margin: 20px 0px auto;
     border-top: solid 1px black;
   }
   .tablet-nav {
@@ -636,57 +636,66 @@ textarea {
   body {
     width: 100%;
   }
-.header {
-  display: block;
+  .header {
+    display: block;
+  }
+  .headerlogo {
+    margin: 0 auto;
+  }
+  .tablet-navigation {
+    display: block;
 
+  }
+  .tablet-nav{
+    padding: 0px;
+    margin: 0 auto;
+    text-align: center;
+  }
+  .aboutmain {
+    display: block;
+    padding: 15px;
+    margin: 0 auto;
+  }
+  .headerimage {
+    margin: 15px auto;
+  }
+  .help {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+    text-align: center;
+    padding: 0px;
+  }
+  .help-windows {
+    display: block;
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+  }
+  .help-windows-text {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+  }
+  .work-windows-text {
+    margin: 0 auto;
+    width: 100%;
+    max-width: 375px;
+  }
+  .work-image {
+    max-width: 300px;
+    margin: 25px auto;
+    height: 100%;
+  }
+  .work-image2 {
+    max-width: 300px;
+    margin: 0px auto;
+    height: 100%;
+  }
+  .footer-nav {
+    width: 33%;
+    padding: 0;
+    margin: 0 auto;
+  }
 }
-.headerlogo {
-  margin: 0 auto;
-}
-.tablet-navigation {
-  display: block;
-}
-.aboutmain {
-  display: block;
-  padding: 15px;
-  margin: 0 auto;
-}
-.headerimage {
-  margin: 15px auto;
-}
-.help {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 375px;
-  text-align: center;
-  padding: 0px;
-}
-.help-windows {
-  display: block;
-  margin: 0 auto;
-  width: 100%;
-  max-width: 375px;
-}
-.help-windows-text {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 375px;
-}
-.work-windows-text {
-  margin: 0 auto;
-  width: 100%;
-  max-width: 375px;
-}
-.work-image {
-  max-width: 300px;
-  margin: 25px auto;
-  height: 100%;
-}
-.work-image2 {
-  max-width: 300px;
-  margin: 0px auto;
-  height: 100%;
-}
-}
-
