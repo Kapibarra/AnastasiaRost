@@ -206,13 +206,15 @@ a {
 }
 
 /* Education PopUp*/
-
+.diplom {
+  max-width: 100%;
+}
 .white-popup {
   position: relative;
   background: #fff;
   padding: 20px;
   width: auto;
-  max-width: 500px;
+  max-width: 1000px;
   margin: 20px auto;
 }
 #pop-up-btntext {
@@ -220,6 +222,11 @@ a {
 }
 #learn-more-btn {
   width: 17rem;
+}
+.mfp-close {
+  font-size: 50px;
+  color: black;
+  opacity: 1;
 }
 .open-popup-link {
   /* color: #000000;
@@ -302,6 +309,7 @@ background-color: darkturquoise;
   display: block;
   margin: 0 auto;
   text-align: center;
+  
 }
 .helptext {
   display: block;
@@ -355,7 +363,7 @@ background-color: darkturquoise;
   width: 500px;
   height: 270px;
   border-radius: 25px;
-  box-shadow: 3px 3px 5px rgb(70, 70, 70);
+  box-shadow: 3px 3px 5px #282936(70, 70, 70);
 }
 
 .price-btn {
@@ -367,9 +375,32 @@ background-color: darkturquoise;
 .reviews-img {
   max-width: 1120px;
   margin: 0 auto;
+  color: #fff;
+}
+.reviews-text {
+  display: block;
+color: #282936;
+text-indent: 20px;
+font-size: 18px;
+font-weight: 700;
+padding: 35px 30px 20px;
+}
+.reviews-sign {
+display: block;
+margin: 0 auto;
+text-align: center;
+color: #282936;
+}
+.gender-img {
+  margin: 0 auto;
+  width: 100px;
+  height: 100px;
 }
 .reviewsimg {
+  background-image: url(../img/reviews-bg.jpg);
+  /* background: #ffffff; */
   box-sizing: border-box;
+  background-size: cover;
   border-radius: 50px;
   margin: 10px;
   box-shadow: 3px 3px 5px grey;
@@ -381,6 +412,12 @@ background-color: darkturquoise;
   margin: 0 auto;
   padding-top: 150px;
   margin-bottom: 50px;
+}
+.reviews-notice{
+  display: flex;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 12px;
 }
 
 /* Form */
@@ -416,7 +453,8 @@ background-color: darkturquoise;
   max-width: 300px;
   padding: 25px;
   border-radius: 25px;
-  background: linear-gradient(rgb(190, 190, 190), rgb(146, 146, 146));
+  /* background-image: url(../img/form-removebg.png); */
+  background-image: url(../img/form.jpg);
   box-shadow: 2px 2px 4px #686868;
   margin: 0 auto;
   text-align: center;
@@ -424,21 +462,24 @@ background-color: darkturquoise;
   border: 1px solid;
 }
 .theme-select {
-  width: 170px;
+  width: 200px;
 }
 label {
   padding-bottom: 15px;
+  font-size: 17px;
+  font-weight: 700;
 }
 .form-group {
   max-width: 300px;
-  margin-bottom: 15px;
+  margin-bottom: 20px;
   width: 100%;
 }
 .form-control:hover {
-  background-color: rgb(183, 255, 251);
+  background-color: rgb(223, 252, 250);
 }
 
 textarea {
+  width: 200px;
   max-width: 200px;
 }
 .form-button {
@@ -509,8 +550,8 @@ textarea {
 }
 .contacts {
   display: block;
-  padding-bottom: 35px;
-  padding-top: 19px;
+  padding-bottom: 37px;
+  padding-top: 23px;
   font-size: 18px;
   font-weight: 700;
 }
@@ -527,6 +568,10 @@ textarea {
   display: none;
 }
 /*TEST*/
+
+
+
+
 
 /*ABOUT PAGE*/
 .aboutmainpage {
@@ -697,5 +742,10 @@ textarea {
     width: 33%;
     padding: 0;
     margin: 0 auto;
+  }
+  .footer-social-networks {
+    display: flex;
+    justify-content: center;
+    align-items: center;
   }
 }
