@@ -370,6 +370,12 @@ background-color: darkturquoise;
   text-align: center;
   margin-top: 20px;
 }
+.contract-link {
+  font-style: italic;
+  font-weight: 700;
+  text-decoration: underline;
+  font-size: 18px;
+}
 
 /*Reviews*/
 .reviews-img {
@@ -550,8 +556,8 @@ textarea {
 }
 .contacts {
   display: block;
-  padding-bottom: 37px;
-  padding-top: 23px;
+  padding-bottom: 39px;
+  padding-top: 30px;
   font-size: 18px;
   font-weight: 700;
 }
