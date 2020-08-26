@@ -318,6 +318,11 @@ background-color: darkturquoise;
   font-weight: 700;
   margin-bottom: 25px;
 }
+.help-buttons {
+  margin: 0 auto;
+  padding-top: 15px;
+  padding-left: 50px;
+}
 
 #last-help-block {
   text-align: center;
