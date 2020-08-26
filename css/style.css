@@ -403,7 +403,7 @@ color: #282936;
   height: 100px;
 }
 .reviewsimg {
-  background-image: url(../img/reviews-bg.jpg);
+  background-image: url(../img/reviews-bg2.jpg) ;
   /* background: #ffffff; */
   box-sizing: border-box;
   background-size: cover;
@@ -619,6 +619,9 @@ textarea {
   .tablet-nav {
     padding-left: 80px;
   }
+  .white-popup {
+    width: 100%;
+  }
 
   #container {
     padding: 10px;
@@ -682,6 +685,10 @@ textarea {
     display: block;
     padding: 25px;
   }
+  .gender-img {
+    width: 60px;
+    height: 60px;
+  }
 }
 @media (max-width: 700px) {
   body {
@@ -690,6 +697,7 @@ textarea {
   .header {
     display: block;
   }
+  
   .headerlogo {
     margin: 0 auto;
   }
