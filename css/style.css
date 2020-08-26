@@ -307,6 +307,7 @@ background-color: darkturquoise;
 }
 .help-image {
   display: block;
+  max-height: 175px;
   margin: 0 auto;
   text-align: center;
   
