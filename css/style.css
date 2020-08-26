@@ -303,6 +303,7 @@ background-color: darkturquoise;
   display: block;
   margin-right: 30px;
   max-width: 600px;
+  min-height: 400px;
   width: 50%;
 }
 .help-image {
