@@ -434,6 +434,14 @@ color: #282936;
 }
 
 /* Form */
+input:invalid {
+  border: 2px solid red;
+  border-radius: 5px;
+}
+
+input:valid {
+  border: 2px solid black;
+}
 
 .form-title {
   max-width: 1920px;
